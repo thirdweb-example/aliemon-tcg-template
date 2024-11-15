@@ -21,7 +21,7 @@ This repository provides a basic **user interface template** for the **Aliemon T
 1. Clone the repository:
    ```bash
    git clone https://github.com/thirdweb-example/aliemon-tcg-template 
-   cd aliemon-tcg-frontend-template
+   cd aliemon-tcg-template 
    ```
 
 2. Install dependencies:
