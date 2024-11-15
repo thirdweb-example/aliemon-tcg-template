@@ -1,59 +1,41 @@
+# Aliemon TCG Frontend Template
 
-![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
+This repository provides a basic **user interface template** for the **Aliemon TCG** project. It serves as a starting point for viewers to code along and build their own functionality using the **Thirdweb SDK**.
 
-# thirdweb-next-starter
+---
 
-Starter template to build an onchain react native app with [thirdweb](https://thirdweb.com/) and [next](https://nextjs.org/).
+## Features
+
+- Pre-configured **Thirdweb Provider** for blockchain integration.
+- Basic UI components styled with **Tailwind CSS**.
+- Placeholder sections for:
+  - **NFT display**
+  - **Pack opening**
+  - **Marketplace**
+- Minimal setup to allow customization and hands-on coding.
+
+---
 
 ## Installation
 
-Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/thirdweb-example/aliemon-tcg-template 
+   cd aliemon-tcg-frontend-template
+   ```
 
-```bash
-  npx thirdweb create app --next
-```
+2. Install dependencies:
+   ```bash
+   yarn
+   ```
 
-## Environment Variables
+3. Run the development server:
+   ```bash
+   yarn run dev
+   ```
 
-To run this project, you will need to add the following environment variables to your .env file:
+---
 
-`CLIENT_ID`
+## Purpose
 
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
-
-## Run locally
-
-Install dependencies
-
-```bash
-yarn
-```
-
-Start development server
-
-```bash
-yarn dev
-```
-
-Create a production build
-
-```bash
-yarn build
-```
-
-Preview the production build
-
-```bash
-yarn start
-```
-
-## Resources
-
-- [Documentation](https://portal.thirdweb.com/typescript/v5)
-- [Templates](https://thirdweb.com/templates)
-- [YouTube](https://www.youtube.com/c/thirdweb)
-- [Blog](https://blog.thirdweb.com)
-
-## Need help?
-
-For help or feedback, please [visit our support site](https://thirdweb.com/support)
+This template provides a skeleton for a Thirdweb-based project. It does not include fully implemented functionality, allowing users to build and customize the features during the tutorial.
